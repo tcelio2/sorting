@@ -7,11 +7,11 @@ public class BubbleSorting {
 	public static void main(String[] args) {
 
 		int[] arr = {6,5,3,1,8,7,2,4};		
-		buble(arr);
+		bubble(arr);
 
 	}
 
-	static void buble(int[] lista) {
+	static void bubble(int[] lista) {
 		boolean verify = true;
 		while(verify) {
 			verify = false;
