@@ -7,11 +7,9 @@ public class SelectionSort {
 	public static void main(String[] args) {
 
 		int[] arr = {6,5,3,1,8,7,2,4};
-		int smaller = 0;
-		select(arr, smaller);
+		select(arr);
 	}
-	private static void select(int[] arr, int referencia) {
-		boolean verify = false;
+	private static void select(int[] arr) {
 		int i = 0;
 		int j = 0;
 		int menor = 0;
